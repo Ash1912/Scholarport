@@ -14,7 +14,7 @@ export async function POST(req: NextRequest) {
     model: "gpt-4-turbo",
     messages: [
       { role: "system", content: "You are a study abroad expert." },
-      { role: "user", content: `Suggest courses based on: ${JSON.stringify(studentProfile)}` },
+      { role: "user", content: `Suggest course based on: ${JSON.stringify(studentProfile)}` },
     ],
   });
 
