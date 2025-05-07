@@ -14,7 +14,7 @@ export default async function StudentDashboard() {
 
       {/* NEW SECTION STARTS */}
       <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
-        <DashboardCard title="Applications" description="Track all your applications." />
+        <DashboardCard title="Applications" description="Track all your application." />
         <DashboardCard title="Documents" description="Upload and manage documents." />
         <DashboardCard title="Messages" description="Chat with your assigned counselor." />
         <DashboardCard title="Visa Updates" description="Stay updated on visa processes." />
